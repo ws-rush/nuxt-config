@@ -1,0 +1,7 @@
+@import './primevue-rtl.css';
+
+:root,
+* {
+  user-select: none;
+  font-family: 'Red Hat Display';
+}

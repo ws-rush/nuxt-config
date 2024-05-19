@@ -1,0 +1,6 @@
+dist
+.output
+.nuxt
+assets
+src-tauri
+pnpm-lock.yaml

@@ -1,0 +1,45 @@
+/* fix: primevue Menubar submenu's icons doesn't show correctly with `rtl`, primevue rtl support still in roadmap */
+
+/* Menubar ------------------------------------------------------------------------ */
+/* menuitem start icon */
+[dir='rtl']
+  .p-menubar
+  .p-menubar-root-list
+  .p-menuitem
+  .p-menuitem-content
+  .p-menuitem-link
+  .p-menuitem-icon {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+/* menuitem end icon */
+[dir='rtl']
+  .p-menubar
+  .p-menubar-root-list
+  > .p-menuitem
+  > .p-menuitem-content
+  .p-menuitem-link
+  .p-submenu-icon {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* sublist arrow direction */
+[dir='rtl']
+  .p-menubar
+  .p-submenu-list
+  .p-menuitem
+  .p-menuitem-content
+  .p-menuitem-link
+  .p-submenu-icon {
+  margin-right: auto;
+  margin-left: 0;
+  transform: rotate(180deg);
+}
+
+/* sublist position */
+[dir='rtl'] .p-menubar .p-submenu-list > .p-menuitem-active > .p-submenu-list {
+  left: 0;
+  right: 100%;
+}

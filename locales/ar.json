@@ -9,5 +9,8 @@
   "light": "فاتح",
   "dark": "داكن",
   "system": "النظام",
-  "greeting": "يا مراحب"
+  "greeting": "يا مراحب",
+  "trypage": "Try صفحة",
+  "testpage": "Test صفحة",
+  "indexpage": "Index صفحة"
 }

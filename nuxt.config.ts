@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/fonts',
     'nuxt-primevue',
+    '@vueuse/nuxt',
   ],
 
   i18n: i18n as ModuleOptions,

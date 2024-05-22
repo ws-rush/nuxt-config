@@ -9,5 +9,8 @@
   "light": "Light",
   "dark": "Dark",
   "system": "System",
-  "greeting": "Hello World!!"
+  "greeting": "Hello World!!",
+  "trypage": "Try Page",
+  "testpage": "Test Page",
+  "indexpage": "Index Page"
 }
